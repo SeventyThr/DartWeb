@@ -1,0 +1,14 @@
+body {
+    background-color:rgba(206, 222, 85, 0.379);
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    margin: 20px;
+}
+
+h1,
+p,
+li {
+    color: #333;
+}
