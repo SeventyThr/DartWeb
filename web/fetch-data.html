@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-16">
+        <title>一个简单的网页</title>
+        <script defer src="fetch-data.dart.js"></script>
+        <link rel="stylesheet" href="fetch-data.css">
+    </head>
+
+    <body>
+        <h1>关于您</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>请输入</th>
+                    <th>数据类型</th>
+                    <th>举例</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td align="right">最喜欢的数字:</td>
+                    <td><input type="text" id="favoriteNumber"></td>
+                    <td>integer</td>
+                    <td><textarea class="result" id="intAsJson" readonly></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="right">你知道圆周率吗?</td>
+                    <td><input type="text" id="valueOfPi"></td>
+                    <td>double</td>
+                    <td><textarea class="result" id="doubleAsJson" readonly></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="right">你的星座是什么?</td>
+                    <td><input type="text" id="horoscope"></td>
+                    <td>String</td>
+                    <td><textarea class="result" id="stringAsJson" readonly></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="right">你喜欢什么?</td>
+                    <td>
+                        <input type="text" id="favOne">
+                        <input type="text" id="favTwo">
+                        <input type="text" id="favThree">
+                    </td>
+                    <td>List&lt;String&gt;</td>
+                    <td><textarea class="result" id="listAsJson" readonly></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="right">我不想军训!</td>
+                    <td>
+                        <form>
+                            <input type="radio" name="chocolate" id="loveChocolate" checked>真
+                            <input type="radio" name="chocolate" id="noLoveForChocolate" checked>假                        </form>
+                    </td>
+                    <td>bool</td>
+                    <td><textarea class="result" id="boolAsJson" readonly> </textarea></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div>
+            <label>数据汇总</label><br>
+            <textarea id="mapAsJson" readonly></textarea>
+        </div>
+
+
+
+        <p><a href="/">Home</a></p>
+    </body>
+
+</html>
