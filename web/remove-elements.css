@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(206, 222, 85, 0.379);
+    margin: 15px;
+    color: rgba(220, 32, 32, 0.453);
+}
+
+h2 {
+    color: rgba(8, 0, 236, 0.47);
+}
+
+#to-do-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    border: 1px solid rgba(43, 163, 117, 0.951);
+    background-color: rgba(185, 243, 103, 0.199);
+}
+
+#to-do-list {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+#to-do-list li {
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px dotted rgba(164, 39, 39, 0.641);
+}
+
+#to-do-list li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#delete-all {
+    margin-top: 8px;
+    background-color: #bd0e0e96;
+    border: 1px dotted #bd0e0e96;
+    border-radius: 1em;
+    float: right;
+}
+
+#delete-all:hover {
+    background-color: rgba(206, 222, 85, 0.379);
+}
