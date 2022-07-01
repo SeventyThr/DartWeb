@@ -1,0 +1,31 @@
+body{
+    font-family:'Roboto',sans-serif;
+    background-color:rgba(206, 222, 85, 0.379);
+    margin:15px;
+    color: rgba(220, 32, 32, 0.453);
+}
+
+h2{
+    color: rgba(8, 0, 236, 0.614);
+}
+
+#to-do-input{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    border: 1px solid rgba(43, 163, 117, 0.951);
+    background-color: rgba(185, 243, 103, 0.199);
+}
+
+#to-do-list{
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+#to-do-list li{
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px dotted rgb(211, 82, 123);
+}
